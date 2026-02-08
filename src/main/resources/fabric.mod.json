@@ -1,0 +1,24 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "bedrockrooms_ymax_addon",
+    "version":  "${version}",
+    "name":  "BedrockRooms YMax Scanner",
+    "description":  "Shows bedrock/air/other percentages on the top layer of the nearest BedrockRooms base.",
+    "authors":  [
+                    "Tuma",
+                    "Tymamatyty"
+                ],
+    "license":  "MIT",
+    "environment":  "client",
+    "entrypoints":  {
+                        "client":  [
+                                       "com.tuma.brymax.BRYMaxClient"
+                                   ]
+                    },
+    "depends":  {
+                    "fabricloader":  "\u003e=0.14.0",
+                    "minecraft":  "1.20.1",
+                    "fabric-api":  "*",
+                    "bedrockrooms_tnt_ultimate":  "*"
+                }
+}
